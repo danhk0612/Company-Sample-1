@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Company Sample</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+
+        <nav class="white nav-extended" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo blue-text text-darken-4">회사 이름</a>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text">
+                    <i class="material-icons">menu</i>
+                </a>
+
+
+                <ul id="main-navbar" class="right hide-on-med-and-down">
+                    <li class="tab more" id="menu1">
+                        <a href="#" class="black-text">메뉴1</a>
+                    </li>
+                    <li class="tab more" id="menu2">
+                        <a href="#" class="black-text active">메뉴2</a>
+                    </li>
+                    <li class="tab disabled" id="menu3">
+                        <a href="#" class="black-text">메뉴3</a>
+                    </li>
+                    <li class="tab" id="menu4">
+                        <a href="#" class="black-text">메뉴4</a>
+                    </li>
+                    <li>
+                        <a class='dropdown-trigger btn grey lighten-1' href='#' data-target='dropdown1'>Language</a>
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content' style="z-index:99;">
+                            <li>
+                                <a href="#!">한국어</a>
+                            </li>
+                            <li>
+                                <a href="#!">English</a>
+                            </li>
+                            <li>
+                                <a href="#!">日本語</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="sub-navbar" class="grey lighten-1">
+                <div class="nav-content container">
+                    <ul id="sub1" class="tabs tabs-transparent">
+                        <li class="tab">
+                            <a href="sub-text.html" class="black-text">메뉴1-1</a>
+                        </li>
+                        <li class="tab">
+                            <a class="active" href="#test2">메뉴1-2</a>
+                        </li>
+                        <li class="tab disabled">
+                            <a href="#test3">메뉴1-3</a>
+                        </li>
+                        <li class="tab">
+                            <a href="#test4">메뉴1-4</a>
+                        </li>
+                    </ul>
+                    <ul id="sub2" class="tabs tabs-transparent">
+                        <li class="tab">
+                            <a href="#test1" class="black-text">메뉴2-1</a>
+                        </li>
+                        <li class="tab">
+                            <a class="active" href="#test2">메뉴2-2</a>
+                        </li>
+                        <li class="tab disabled">
+                            <a href="#test3">메뉴2-3</a>
+                        </li>
+                        <li class="tab">
+                            <a href="#test4">메뉴2-4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <ul id="nav-mobile" class="sidenav">
+        <li>
+            <a class="waves-effect" href="#!">메뉴1</a>
+        </li>
+
+        <li>
+            <a class="waves-effect" href="#!">메뉴2</a>
+            <ul class="grey lighten-1">
+                <li>
+                    <a class="waves-effect" href="#!">메뉴2-1</a>
+                </li>
+                <li>
+                    <a class="sidenav-close" href="#!">메뉴2-2</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a class="waves-effect" href="#!">메뉴3</a>
+            <ul class="grey lighten-1">
+                <li>
+                    <a class="waves-effect" href="#!">메뉴3-1</a>
+                </li>
+                <li>
+                    <a class="sidenav-close" href="#!">메뉴3-2</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="" id="video-bg">
+        <div class="banner valign-wrapper">
+            <div class="container white-text center-align">
+                <h1>Go ahead</h1>
+                <button class="waves-effect waves-light grey lighten-1 btn black-text">
+                    <i class="material-icons left">cloud</i>Vision</button>
+            </div>
+
+            <video autoplay loop muted class="banner__video" poster="video.jpg">
+                <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm>
+                <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg>
+                <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+                <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
+            </video>
+        </div>
+        <div></div>
+    </div>
+
+    <div id="news">
+        <div class="container">
+
+            <div class="section">
+
+                <!--   Icon Section   -->
+                <div class="row">
+                    <div class="col s12 title">
+                        <h3>News</h3>
+                        <p class="right">
+                            <a href="#">more&nbsp;></a>
+                        </p>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="icon-block">
+                            <h5>뉴스1 제목</h5>
+
+                            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom
+                                components. Additionally, we refined animations and transitions to provide a smoother experience
+                                for developers.</p>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <div class="icon-block">
+                            <h5>뉴스2 제목</h5>
+
+                            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that
+                                incorporates components and animations that provide more feedback to users. Additionally,
+                                a single underlying responsive system across all platforms allow for a more unified user
+                                experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div id="career" class="grey lighten-2">
+
+        <div class="section container">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 title">
+                    <h3>Career</h3>
+                    <p class="right">
+                        <a href="#">more&nbsp;></a>
+                    </p>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel blue darken-3 white-text z-depth-3 hoverable">
+                        <span>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                            I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel blue darken-3 white-text z-depth-3 hoverable">
+                        <span>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                            I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel blue darken-3 white-text z-depth-3 hoverable">
+                        <span>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                            I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel blue darken-3 white-text z-depth-3 hoverable">
+                        <span>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                            I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div id="bottom-banner" class="valign-wrapper">
+        <div class="container white-text center-align">
+            <!--   Icon Section   -->
+            <div>
+                <h4>회사 이념</h4>
+                <p>
+                    회사 이념 설명
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer white black-text">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l3 s12">
+                    <h5>하단 메뉴1</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>하단 메뉴2</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>하단 메뉴3</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 4</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="input-field col l3 s12">
+
+                    <input type="text" id="autocomplete-input" class="autocomplete">
+                    <label for="autocomplete-input">Search</label>
+
+                </div>
+                <a id="more-sitemap" class="right btn-floating btn-large waves-effect waves-light red">
+                    <i class="material-icons">add</i>
+                </a>
+            </div>
+        </div>
+        <div id="second-sitemap" class="container">
+            <div class="row">
+                <div class="col l3 s12">
+                    <h5>하단 메뉴4</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>하단 메뉴5</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>하단 메뉴6</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>하단 메뉴7</h5>
+                    <ul>
+                        <li>
+                            <a href="#!" class="black-text">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="black-text">Link 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="address" class="footer-copyright black-text">
+            <div class="container">
+                ©
+                <a href="#" class="black-text">&nbsp;사이트 이름</a>
+
+                <a href="#" class="black-text">개인정보 보호</a>
+                <span></span>
+                <a href="#" class="black-text">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
+
+
+</body>
+
+</html>

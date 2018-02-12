@@ -1,7 +1,22 @@
 $(document).ready(function(){
   $('.sidenav').sidenav();
   $('.dropdown-trigger').dropdown();
+  let thisfilefullname = $(location).attr('href').substring(document.URL.lastIndexOf("/") + 1, document.URL.length);
+  if(thisfilefullname=="sub-card.html"){
+    $('#waterfall').NewWaterfall({
+      width: 300, 
+      delay: 30,
+      repeatShow: false    
+    });
+  }
+
 });
+
+function volumeControl(val) {
+  $("#video-banner").prop('muted', val);
+  $("#mute-btn").toggle();
+  $("#unmute-btn").toggle();
+};
 
 $("#main-navbar li.more").mouseenter(function () {
   let subName = $(this).addClass("active").attr("id").replace("menu","sub");
@@ -29,6 +44,14 @@ $("#nav-mobile > li").click(function () {
 $("#more-sitemap").click(function () {
   $("#second-sitemap").toggle();
   $("#more-sitemap").hide();
+});
+
+$("#mute-btn").click(function () {
+  volumeControl(false);
+});
+
+$("#unmute-btn").click(function () {
+  volumeControl(true);
 });
 
 

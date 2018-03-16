@@ -16,3 +16,7 @@
 - CSS (included CSS3 & SASS)
 - Javascript (included Jquery)
 - Materialize Front-end Framework 1.0.0 Alpha
+
+## Screenshot
+
+![스크린샷](https://github.com/danhk0612/Company-Sample-1/raw/master/img/sample1.png) 

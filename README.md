@@ -5,7 +5,6 @@
 ## URL
 
 - https://danhk0612.github.io/Company-Sample-1/
-- http://company.mydepot.kr/
 
 ## Tech
 
